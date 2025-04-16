@@ -1,16 +1,23 @@
-# snap_scroll_app
+# Snap scroll effect using PageViews with Embedded Scrolling in Flutter
 
-A new Flutter project.
+A Flutter UI pattern that uses a vertically scrollable `PageView` with an embedded `ListView` on the second page.
+
+## Features
+
+- Page 1: Static intro
+- Page 2: Scrollable ListView
+- Page 3: Static CTA
+- Swipe up/down navigation only allowed at list bounds
+- Remembers scroll position when returning from Page 3
+
+## Use Case
+
+Ideal for promotional or onboarding screens with smooth transitions—similar to landing experiences in apps like CRED.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Clone the repo and run:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
